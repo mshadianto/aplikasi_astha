@@ -152,4 +152,3 @@ Untuk bantuan teknis atau pertanyaan:
 
 **Made with ❤️ for sustainable hajj financial management**
 """
-Claude
