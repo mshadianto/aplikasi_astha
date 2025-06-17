@@ -583,7 +583,7 @@ def render_footer_disclaimer():
     st.markdown("""
     - **Email:** sopian@bpkh.go.id
     - **Dokumentasi:** User Manual ASTHA (akan tersedia)
-    - **Repository:** Internal BPKH Repository (akan tersedia)
+    - **Repository:** https://github.com/mshadianto/aplikasi_astha.git
     """)
     
     # Copyright footer
