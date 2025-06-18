@@ -6,6 +6,9 @@ import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import sys
 import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../..'))
+
+from app.services.api_service import APIService
 
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
