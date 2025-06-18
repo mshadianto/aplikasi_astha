@@ -199,6 +199,17 @@ def load_historical_data():
     }
     return pd.DataFrame(data)
 
+# Add to existing main.py navigation section:
+def add_bpkh_navigation():
+    """Add BPKH to main navigation"""
+    
+    # In your existing navigation logic, add:
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("### 🕌 BPKH Management")
+    
+    if st.sidebar.button("📊 BPKH Dashboard"):
+        st.switch_page("pages/07_🕌_BPKH_Management.py")
+
 @st.cache_data
 def get_exchange_rates():
     """Get current exchange rates"""
