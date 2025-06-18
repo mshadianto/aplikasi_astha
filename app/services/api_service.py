@@ -1,7 +1,7 @@
 # ===== services/api_service.py =====
 import requests
 import streamlit as st
-from config.settings import AppConfig
+from app.config.settings import AppConfig
 
 class APIService:
     def __init__(self):
