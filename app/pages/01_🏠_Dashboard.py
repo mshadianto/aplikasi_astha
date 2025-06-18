@@ -10,7 +10,7 @@ import os
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from services.api_service import APIService
+from app.services.api_service import APIService
 from utils.formatters import format_rupiah, format_percentage
 from components.metrics import render_kpi_cards, render_trend_chart
 from components.charts import create_liability_projection_chart
