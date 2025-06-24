@@ -6,38 +6,3 @@
 # Core Framework - EXACT VERSIONS for stability
 streamlit==1.35.0
 
-# Data Processing & Analysis
-pandas==2.2.2
-numpy==1.26.4
-
-# Data Visualization
-plotly==5.21.0
-matplotlib==3.8.4
-seaborn==0.13.2
-
-# HTTP Requests & API
-requests==2.31.0
-
-# Environment Management  
-python-dotenv==1.0.1
-
-# File Processing
-openpyxl==3.1.2
-
-# Date & Time
-python-dateutil==2.9.0.post0
-
-# Scientific Computing
-scipy==1.13.0
-
-# UI Enhancement (tested versions)
-streamlit-option-menu==0.3.12
-
-# Utility Libraries
-typing-extensions==4.11.0
-
-# Image Processing
-Pillow==10.3.0
-
-# Configuration
-pydantic==2.7.1
